@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "8obTYnVQt40=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\cliwrap\\3.8.2\\cliwrap.3.8.2.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\docker.dotnet\\3.125.15\\docker.dotnet.3.125.15.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\routines-package-sdk\\0.2.1\\routines-package-sdk.0.2.1.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\DorRatzabi\\.nuget\\packages\\yamldotnet\\15.3.0\\yamldotnet.15.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
