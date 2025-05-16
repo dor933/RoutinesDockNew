@@ -17,3 +17,5 @@ C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\o
 C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\obj\Debug\net8.0\routines.package.DockerProjTes.pdb
 C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\obj\Debug\net8.0\routines.package.DockerProjTes.genruntimeconfig.cache
 C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\obj\Debug\net8.0\ref\routines.package.DockerProjTes.dll
+C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\obj\Debug\net8.0\routines.package.DockerProjTes.sourcelink.json
+C:\Users\DorRatzabi\Repos\Bulwarx\DockerProjTes\routines.package.DockerProjTes\bin\Debug\net8.0\routines.package.DockerProjTes.exe

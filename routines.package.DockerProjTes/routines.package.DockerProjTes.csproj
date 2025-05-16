@@ -2,11 +2,14 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>routines.package.dockerprojtes</RootNamespace>
+      <OutputType>Exe</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <Version>0.1.0</Version>
+    <StartupObject>routines.package.dockerprojtes.Program</StartupObject>
+
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CliWrap" Version="3.8.2" />

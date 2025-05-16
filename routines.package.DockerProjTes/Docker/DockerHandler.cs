@@ -3,6 +3,7 @@ using Docker.DotNet;
 using Docker.DotNet.Models;
 using CliWrap;
 using routines.package.dockerpackage.Application;
+using CliWrap.Buffered;
 
 namespace routines.package.dockerpackage.classes;
 
@@ -25,57 +26,69 @@ public class DockerHandler
 
     }
 
-    public async Task<CliWrap.CommandResult> Login(string username, string registry, string password)
+    public string PrintCredentials()
+    {
+        return $"Username: {username}, Registry: {registry}, Password: {password}";
+    }
+    
+
+    public async Task<CliWrap.Buffered.BufferedCommandResult> Login(string username, string registry, string password)
     {
         var result = await Cli.Wrap("docker")
         .WithArguments(new[] { "login", registry, "-u", username, "-p", password })
-        .ExecuteAsync();
+        .ExecuteBufferedAsync();
+        Console.WriteLine(result.StandardOutput);
+        Console.WriteLine(result.StandardError);
+        Console.WriteLine("Type is: " + result);
         return result;
    
     }
 
 
-    public async Task<CliWrap.CommandResult> PullImage(string imageName, string tag)
+    public async Task<CliWrap.Buffered.BufferedCommandResult> PullImage(string imageName, string tag)
     {
         var result = await Cli.Wrap("docker")
-        .WithArguments(new[] { "pull", $"{registry}/{imageName}:{tag}" })
-        .ExecuteAsync();
+        .WithArguments(new[] { "pull", $"{registry}/{username}/{imageName}:{tag}" })
+        .ExecuteBufferedAsync();
+
         return result;
 
     }
 
 
-    public async Task<CliWrap.CommandResult> CreateContainer(string imageName, string containerName, string imageTag, List<KeyValuePair<string,string>> ports, List<KeyValuePair<string,string>> volumes)
+    public async Task<CliWrap.Buffered.BufferedCommandResult> CreateContainer(string imageName,string imageTag, string containerName, List<KeyValuePair<string,string>> ports = null, List<KeyValuePair<string,string>> volumes = null)
     {
-        var myports = OptionFilesBuilder.BuildPortsBindings(ports);
-        var myvolumes = OptionFilesBuilder.AttachVolumes(volumes);
+        var myports = ports == null ? null : OptionFilesBuilder.BuildPortsBindings(ports);
+        var myvolumes = volumes == null ? null : OptionFilesBuilder.AttachVolumes(volumes);
         var result = await Cli.Wrap("docker")
-        .WithArguments(new[] { "create", $"{registry}/{imageName}:{imageTag}", "-n", containerName, myports, myvolumes })
-        .ExecuteAsync();
+        .WithArguments(new[] { "create", $"{registry}/{username}/{imageName}:{imageTag}", "-n", containerName, myports ?? "", myvolumes ?? "" })
+        .ExecuteBufferedAsync();
         return result;
     }
 
-    public async Task<CliWrap.CommandResult> StartContainer(string containerId)
+    public async Task<CliWrap.Buffered.BufferedCommandResult> StartContainer(string containerId)
     {
+
         var result = await Cli.Wrap("docker")
         .WithArguments(new[] { "start", containerId })
-        .ExecuteAsync();
+        .ExecuteBufferedAsync();
         return result;
     }
-    
-    public async Task<CliWrap.CommandResult> StopContainer(string containerId)
+
+
+    public async Task<CliWrap.Buffered.BufferedCommandResult> StopContainer(string containerId)
     {
         var result = await Cli.Wrap("docker")
         .WithArguments(new[] { "stop", containerId })
-        .ExecuteAsync();
+        .ExecuteBufferedAsync();
         return result;
     }
     
-    public async Task<CliWrap.CommandResult> RemoveContainer(string containerId)
+    public async Task<CliWrap.Buffered.BufferedCommandResult> RemoveContainer(string containerId)
     {
         var result = await Cli.Wrap("docker")
         .WithArguments(new[] { "rm", containerId })
-        .ExecuteAsync();
+        .ExecuteBufferedAsync();
         return result;
     }
     

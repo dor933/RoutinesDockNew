@@ -14,15 +14,11 @@
         "outputPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\NuGet.Config",
           "C:\\Users\\DorRatzabi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",

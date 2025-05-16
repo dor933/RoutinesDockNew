@@ -7,6 +7,12 @@ namespace routines.package.dockerpackage.Application;
 
 public static class OptionFilesBuilder
 {
+
+   public static string Test()
+   {
+    return "Test";
+   }
+
     public static string BuildPortsBindings(List<KeyValuePair<string,string>> ports)
     {
        
