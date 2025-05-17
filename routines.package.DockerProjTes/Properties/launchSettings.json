@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "routines.package.DockerProjTes": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DockerHubPass": "yfw.xvr9raw@FTV8vat"
+      }
+    }
+  }
+}

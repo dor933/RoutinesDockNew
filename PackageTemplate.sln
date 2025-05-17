@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routines.package.DockerProjTes", "routines.package.DockerProjTes\routines.package.DockerProjTes.csproj", "{702B257E-65CC-44DF-9145-F22AA9A73EE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "routines.package.DockerProjTes.tests", "routines.package.DockerProjTes.tests\routines.package.DockerProjTes.tests.csproj", "{512BEB43-BD55-4D21-9E8C-DB6566C3829F}"
@@ -18,5 +21,11 @@ Global
 		{512BEB43-BD55-4D21-9E8C-DB6566C3829F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512BEB43-BD55-4D21-9E8C-DB6566C3829F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512BEB43-BD55-4D21-9E8C-DB6566C3829F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05DCAC93-EB82-404D-82E5-EB76825FFE79}
 	EndGlobalSection
 EndGlobal

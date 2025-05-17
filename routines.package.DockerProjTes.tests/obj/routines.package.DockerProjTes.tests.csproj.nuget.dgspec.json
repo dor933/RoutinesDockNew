@@ -1,30 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj": {}
+    "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj": {
+    "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj",
+        "projectUniqueName": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj",
         "projectName": "routines.package.DockerProjTes.tests",
-        "projectPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj",
-        "packagesPath": "C:\\Users\\DorRatzabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes.tests\\obj\\",
+        "projectPath": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes.tests\\routines.package.DockerProjTes.tests.csproj",
+        "packagesPath": "C:\\Users\\dorat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes.tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DorRatzabi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dorat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj": {
-                "projectPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj"
+              "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj": {
+                "projectPath": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj"
               }
             }
           }
@@ -38,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -81,25 +91,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj": {
+    "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj",
+        "projectUniqueName": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj",
         "projectName": "routines.package.DockerProjTes",
-        "projectPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj",
-        "packagesPath": "C:\\Users\\DorRatzabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DorRatzabi\\Repos\\Bulwarx\\DockerProjTes\\routines.package.DockerProjTes\\obj\\",
+        "projectPath": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\routines.package.DockerProjTes.csproj",
+        "packagesPath": "C:\\Users\\dorat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dorat\\Source\\Repos\\dor933\\RoutinesDockNew\\routines.package.DockerProjTes\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DorRatzabi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dorat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
@@ -115,7 +134,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -151,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
